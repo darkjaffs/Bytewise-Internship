@@ -1,0 +1,17 @@
+@import url('clash-display.css');
+
+
+body{
+    background-color: #EFEFEF;
+}
+
+
+#logo{
+    font-family: ClashDisplay-Medium ;
+    font-size: 18px;
+}
+
+#custom-navbar{
+    font-family: ClashDisplay-Regular;
+    font-size: 18px;
+}
