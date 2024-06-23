@@ -15,17 +15,35 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand">
+    <nav class="navbar navbar-expand-md">
         <div class="container" id="custom-navbar">
             <a href="#" class="navbar-brand" id="logo">AMSTUDIO</a>
-            <ul class="navbar-nav" id="custom-navbar">
-                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Work</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Process</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
-            </ul>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navigation">
+                <div class="navbar-toggler-icon"></div>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navigation">
+                <ul class="navbar-nav" id="custom-navbar">
+                    <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Work</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Process</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
+
+        <div class="container" id="content-block">
+            <div class="row flex-lg-nowrap flex-sm-wrap">
+                <div class="col" id="main-content">
+                    Digital Designer
+                </div>
+                <div class="col justify-content-end align-content-end pb-lg-6 pb-0" id="sec-content">
+                    <div class="">
+                        specialized in Web Design UX/UI, Framer, and Front End Development.
+                    </div>
+                </div>
+            </div>
+        </div>
 </body>
 
 </html>

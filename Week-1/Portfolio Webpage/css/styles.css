@@ -1,17 +1,41 @@
 @import url('clash-display.css');
 
+@media (min-width: 992px){
+    .pb-lg-6,
+    .py-lg-6 {
+      padding-bottom: 5rem !important;
+    }
+}
 
-body{
+
+body {
     background-color: #EFEFEF;
 }
 
 
-#logo{
-    font-family: ClashDisplay-Medium ;
-    font-size: 18px;
+#logo {
+    font-family: ClashDisplay-Medium;
+    font-size: 16px;
 }
 
-#custom-navbar{
+#custom-navbar {
     font-family: ClashDisplay-Regular;
-    font-size: 18px;
+    font-size: 16px;
+}
+
+#content-block {
+    max-width: 1216px;
+    max-height: 904px;
+}
+
+#main-content {
+    font-family: ClashDisplay-Regular;
+    font-size: 182px; 
+    font-weight: 400;
+}
+
+#sec-content {
+    font-family: ClashDisplay-Medium;
+    font-size: 24px;
+    font-weight: 500;
 }
