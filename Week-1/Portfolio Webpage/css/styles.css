@@ -144,6 +144,14 @@ body {
     font-size: 16px;
 }
 
+#cta-text{
+    font-family: ClashDisplay-Regular;
+    font-weight: 500;
+    font-size: 96px;
+    color: #000;
+    text-align: justify;
+}
+
 .work-cards{
     background-color: #EFEFEF;
     border-radius: 0%;
@@ -198,4 +206,12 @@ body {
     font-family: ClashDisplay-Regular;
     font-size: 18   px;
     color: #000;
+}
+
+#button2 {
+    color: #FFF;
+    background-color: #000;
+    border-radius: 322px;
+    padding: 10px 15px 10px 15px;
+    flex: 0 0 auto;
 }
