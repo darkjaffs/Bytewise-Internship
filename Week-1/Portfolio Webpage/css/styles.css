@@ -1,18 +1,20 @@
 @import url('clash-display.css');
 
-@media (min-width: 992px){
+@media (min-width: 992px) {
+
     .pb-lg-6,
     .py-lg-6 {
-      padding-bottom: 5rem !important;
+        padding-bottom: 5rem !important;
     }
-    .p-lg-6{
+
+    .p-lg-6 {
         padding: 5rem;
     }
 }
 
-@media (min-width: 1200px){
-    .p-xl-6{
-        padding:5rem;
+@media (min-width: 1200px) {
+    .p-xl-6 {
+        padding: 5rem;
     }
 }
 
@@ -39,7 +41,7 @@ body {
 
 #main-content {
     font-family: ClashDisplay-Regular;
-    font-size: 182px; 
+    font-size: 182px;
     font-weight: 400;
     color: #000;
 }
@@ -51,83 +53,117 @@ body {
     color: #000;
 }
 
-#statement-text{
+#statement-text {
     font-family: ClashDisplay-Regular;
     font-size: 44px;
     color: #000;
+    text-align: justify;
 }
 
-#social-links{
+#social-links {
     font-family: ClashDisplay-Medium;
     font-size: 18px;
     color: #000;
     list-style: none;
 }
 
-#connect{
+#connect {
     color: #828282;
     font-family: ClashDisplay-Medium;
     font-size: 18px;
     border-bottom: 2px solid #828282;
-    
+
 }
 
-#button{
+#button {
     color: #FFF;
     background-color: #000;
     border-radius: 322px;
     padding: 10px 15px 10px 15px;
 }
 
-#help-text{
-    color: #000;
-    font-family: ClashDisplay-Medium;
-    font-size: 44px;
-}
-
-.cards{
+.cards {
     background-color: #EFEFEF;
     border-radius: 0%;
     padding: 10px 0px 10px 30px;
 }
 
-#cardborder{
+#cardborder {
     border-right: 1px solid #D2D1D1 !important;
     border-left: 1px solid #D2D1D1 !important
 }
 
-#cardborder2{
+#cardborder2 {
     border-right: 1px solid #D2D1D1 !important
 }
+
 @media (min-width: 576px) {
     .cards {
         border-left: 1px solid #D2D1D1 !important;
     }
-    #cardborder{
+
+    #cardborder {
         border-right: none !important;
     }
-    
-    #cardborder2{
+
+    #cardborder2 {
         border-right: none !important
     }
 }
-#numbers{
+
+#numbers {
     font-family: ClashDisplay-Medium;
-    font-size:44px;
+    font-size: 44px;
     color: #828282;
     font-weight: 500;
 }
 
 
-#second-heading{
+.second-heading {
     font-family: ClashDisplay-Medium;
-    font-size:24px;
+    font-size: 24px;
     color: #000;
 }
 
-.helptext{
+.helptext {
     font-family: ClashDisplay-Regular;
     font-size: 18px;
     color: #000;
     text-align: justify;
+}
+
+.heading {
+    color: #000;
+    font-family: ClashDisplay-Medium;
+    font-size: 44px;
+}
+
+#spantext1{
+    color: #000;
+    font-family:ClashDisplay-Medium;
+    font-size: 16px;
+}
+
+.work-cards{
+    background-color: #EFEFEF;
+    border-radius: 0%;
+    border-top: 1px solid #828282 !important; 
+}
+
+.work-cards-heading{
+    color: #000;
+    font-family: ClashDisplay-Regular;
+    font-size: 96px;
+    font-weight: 500;
+}
+
+.card-numbers{
+    font-family: ClashDisplay-Medium;
+    font-size: 34px;
+}
+
+.work-text-style{
+    font-family: ClashDisplay-Regular;
+    font-size: 24px;    
+    color: #000;
 }
