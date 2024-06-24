@@ -21,8 +21,8 @@
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navigation">
                 <div class="navbar-toggler-icon"></div>
             </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navigation">
-                <ul class="navbar-nav" id="custom-navbar">
+            <div class="collapse navbar-collapse" id="navigation">
+                <ul class="navbar-nav ms-auto" id="custom-navbar">
                     <li class="nav-item"><a href="#" class="nav-link">About</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Work</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Process</a></li>
@@ -32,18 +32,43 @@
         </div>
     </nav>
 
-        <div class="container" id="content-block">
-            <div class="row flex-lg-nowrap flex-sm-wrap">
-                <div class="col" id="main-content">
-                    Digital Designer
-                </div>
-                <div class="col justify-content-end align-content-end pb-lg-6 pb-0" id="sec-content">
-                    <div class="">
-                        specialized in Web Design UX/UI, Framer, and Front End Development.
+    <div class="d-flex flex-column">
+        <!-- Content Block -->
+        <section>
+            <div class="container py-5">
+                <div class="d-lg-flex align-content-between">
+                    <div id="main-content">
+                        Digital Designer
+                    </div>
+                    <div id="sec-content" class="align-self-end p-lg-6 pe-lg-0">
+                        specialized in Web Design, UX/UI, Framer, and Front End Development.
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+        <!-- Bottom Content Block -->
+        <section>
+            <div class="container py-5">
+                <div class="d-sm-flex justify-content-between">
+                    <p id="statement-text" class=" flex-sm-grow-1">
+                        I'm helping startups and business owners to make a visual statement through spotless Web Design and
+                        Development so they can increase brand awareness and sell more
+                    </p>
+                    <div class="flex-column  ps-sm-5 flex-grow-0">
+                        <div id="connect" class="text-nowrap mb-2">
+                            Let's get connected
+                        </div>
+                        <ul id="social-links" class="text-nowrap mt-2">
+                            <li class="mb-2 ">Dribble</li>
+                            <li class="mb-2 ">Behance</li>
+                            <li class="mb-2 ">Linkedin</li>
+                            <li class="mb-2 ">Instagram</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 </body>
 
 </html>

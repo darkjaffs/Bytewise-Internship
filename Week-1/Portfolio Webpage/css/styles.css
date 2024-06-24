@@ -5,6 +5,15 @@
     .py-lg-6 {
       padding-bottom: 5rem !important;
     }
+    .p-lg-6{
+        padding: 5rem;
+    }
+}
+
+@media (min-width: 1200px){
+    .p-xl-6{
+        padding:5rem;
+    }
 }
 
 
@@ -32,10 +41,33 @@ body {
     font-family: ClashDisplay-Regular;
     font-size: 182px; 
     font-weight: 400;
+    color: #000;
 }
 
 #sec-content {
     font-family: ClashDisplay-Medium;
     font-size: 24px;
     font-weight: 500;
+    color: #000;
+}
+
+#statement-text{
+    font-family: ClashDisplay-Regular;
+    font-size: 44px;
+    color: #000;
+}
+
+#social-links{
+    font-family: ClashDisplay-Medium;
+    font-size: 18px;
+    color: #000;
+    list-style: none;
+}
+
+#connect{
+    color: #828282;
+    font-family: ClashDisplay-Medium;
+    font-size: 18px;
+    border-bottom: 1px solid #828282;
+    
 }
