@@ -68,6 +68,19 @@ body {
     color: #828282;
     font-family: ClashDisplay-Medium;
     font-size: 18px;
-    border-bottom: 1px solid #828282;
+    border-bottom: 2px solid #828282;
     
+}
+
+#button{
+    color: #FFF;
+    background-color: #000;
+    border-radius: 322px;
+    padding: 10px 15px 10px 15px;
+}
+
+#help-text{
+    color: #000;
+    font-family: ClashDisplay-Medium;
+    font-size: 44px;
 }
