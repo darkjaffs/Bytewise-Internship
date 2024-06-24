@@ -150,6 +150,7 @@ body {
     border-top: 1px solid #828282 !important; 
 }
 
+
 .work-cards-heading{
     color: #000;
     font-family: ClashDisplay-Regular;
@@ -165,5 +166,36 @@ body {
 .work-text-style{
     font-family: ClashDisplay-Regular;
     font-size: 24px;    
+    color: #000;
+}
+
+#text-p{
+    font-family: ClashDisplay-Regular;
+    font-size: 24px;
+    color: #000;
+}
+
+.process-cards{
+    background-color: #EFEFEF;
+    border-radius: 0%;
+    border: none !important;
+    border-bottom: 1px solid #828282 !important; 
+}
+
+.text-cards{
+    font-family: ClashDisplay-Regular;
+    font-size: 24px;
+    color: #000;
+    font-weight: 500;
+}
+
+.togglerbtn{
+    border: none !important;
+
+}
+
+.card-text{
+    font-family: ClashDisplay-Regular;
+    font-size: 18   px;
     color: #000;
 }
