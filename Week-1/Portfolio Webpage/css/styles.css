@@ -84,3 +84,50 @@ body {
     font-family: ClashDisplay-Medium;
     font-size: 44px;
 }
+
+.cards{
+    background-color: #EFEFEF;
+    border-radius: 0%;
+    padding: 10px 0px 10px 30px;
+}
+
+#cardborder{
+    border-right: 1px solid #D2D1D1 !important;
+    border-left: 1px solid #D2D1D1 !important
+}
+
+#cardborder2{
+    border-right: 1px solid #D2D1D1 !important
+}
+@media (min-width: 576px) {
+    .cards {
+        border-left: 1px solid #D2D1D1 !important;
+    }
+    #cardborder{
+        border-right: none !important;
+    }
+    
+    #cardborder2{
+        border-right: none !important
+    }
+}
+#numbers{
+    font-family: ClashDisplay-Medium;
+    font-size:44px;
+    color: #828282;
+    font-weight: 500;
+}
+
+
+#second-heading{
+    font-family: ClashDisplay-Medium;
+    font-size:24px;
+    color: #000;
+}
+
+.helptext{
+    font-family: ClashDisplay-Regular;
+    font-size: 18px;
+    color: #000;
+    text-align: justify;
+}
