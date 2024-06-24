@@ -67,6 +67,12 @@ body {
     list-style: none;
 }
 
+.link-style:hover{
+    background-color: #d7d7d7;
+    border-radius: 332px;
+    padding: 10px 15px 10px 15px;
+}
+
 #connect {
     color: #828282;
     font-family: ClashDisplay-Medium;
@@ -80,6 +86,13 @@ body {
     background-color: #000;
     border-radius: 322px;
     padding: 10px 15px 10px 15px;
+}
+
+.background-img{
+    position: absolute;
+    background-image: url('../images/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .cards {
@@ -157,7 +170,6 @@ body {
     border-radius: 0%;
     border-top: 1px solid #828282 !important; 
 }
-
 
 .work-cards-heading{
     color: #000;
