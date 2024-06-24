@@ -60,7 +60,7 @@ body {
     text-align: justify;
 }
 
-#social-links {
+.social-links {
     font-family: ClashDisplay-Medium;
     font-size: 18px;
     color: #000;
@@ -215,3 +215,10 @@ body {
     padding: 10px 15px 10px 15px;
     flex: 0 0 auto;
 }
+
+#footer-text{
+    font-family: ClashDisplay-Regular;
+    font-size: 24px;
+}
+
+
