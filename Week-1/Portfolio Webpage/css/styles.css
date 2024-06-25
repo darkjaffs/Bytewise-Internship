@@ -10,6 +10,10 @@
     .p-lg-6 {
         padding: 5rem;
     }
+
+    .background-img{
+        background-size: 50% 50%;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -34,14 +38,9 @@ body {
     font-size: 16px;
 }
 
-#content-block {
-    max-width: 1216px;
-    max-height: 904px;
-}
-
 #main-content {
     font-family: ClashDisplay-Regular;
-    font-size: 182px;
+    font-size: 14vw;
     font-weight: 400;
     color: #000;
 }
@@ -89,10 +88,10 @@ body {
 }
 
 .background-img{
-    position: absolute;
     background-image: url('../images/background.png');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 80% 80%;
 }
 
 .cards {
@@ -110,7 +109,7 @@ body {
     border-right: 1px solid #D2D1D1 !important
 }
 
-@media (min-width: 576px) {
+@media (max-width: 575.98px) {
     .cards {
         border-left: 1px solid #D2D1D1 !important;
     }
@@ -121,6 +120,15 @@ body {
 
     #cardborder2 {
         border-right: none !important
+    }
+    .background-img{
+        background-image: none;
+    }
+}
+
+@media (max-width: 767.98px){
+    .background-img{
+        background-size: 10% 10%;
     }
 }
 
