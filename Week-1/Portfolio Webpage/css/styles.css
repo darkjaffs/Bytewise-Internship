@@ -46,28 +46,28 @@ body {
 
 #main-content {
   font-family: ClashDisplay-Regular;
-  font-size: 11.375rem;
+  font-size: 14vw;
   font-weight: 400;
   color: #000;
 }
 
 #sec-content {
   font-family: ClashDisplay-Medium;
-  font-size: 1.5rem;
+  font-size: 24px;
   font-weight: 500;
   color: #000;
 }
 
 #statement-text {
   font-family: ClashDisplay-Regular;
-  font-size: 2.75rem;
+  font-size: 44px;
   color: #000;
   text-align: justify;
 }
 
 .social-links {
   font-family: ClashDisplay-Medium;
-  font-size: 1.125rem;
+  font-size: 18px;
   color: #000;
   list-style: none;
 }
@@ -81,7 +81,7 @@ body {
 #connect {
   color: #828282;
   font-family: ClashDisplay-Medium;
-  font-size: 1.125rem;
+  font-size: 18px;
   border-bottom: 2px solid #828282;
 }
 
@@ -139,20 +139,20 @@ body {
 
 #numbers {
   font-family: ClashDisplay-Medium;
-  font-size: 2.75rem;
+  font-size: 44px;
   color: #828282;
   font-weight: 500;
 }
 
 .second-heading {
   font-family: ClashDisplay-Medium;
-  font-size: 1.5rem;
+  font-size: 24px;
   color: #000;
 }
 
 .helptext {
   font-family: ClashDisplay-Regular;
-  font-size: 1.125rem;
+  font-size: 18px;
   color: #000;
   text-align: justify;
 }
@@ -160,19 +160,19 @@ body {
 .heading {
   color: #000;
   font-family: ClashDisplay-Medium;
-  font-size: 2.75rem;
+  font-size: 44px;
 }
 
 #spantext1 {
   color: #000;
   font-family: ClashDisplay-Medium;
-  font-size: 1rem;
+  font-size: 16px;
 }
 
 #cta-text {
   font-family: ClashDisplay-Regular;
   font-weight: 500;
-  font-size: 6rem;
+  font-size: 96px;
   color: #000;
   text-align: justify;
 }
@@ -186,24 +186,24 @@ body {
 .work-cards-heading {
   color: #000;
   font-family: ClashDisplay-Regular;
-  font-size: 6rem;
+  font-size: 96px;
   font-weight: 500;
 }
 
 .card-numbers {
   font-family: ClashDisplay-Medium;
-  font-size: 2.125rem;
+  font-size: 34px;
 }
 
 .work-text-style {
   font-family: ClashDisplay-Regular;
-  font-size: 1.5rem;
+  font-size: 24px;
   color: #000;
 }
 
 #text-p {
   font-family: ClashDisplay-Regular;
-  font-size: 1.5rem;
+  font-size: 24px;
   color: #000;
 }
 
@@ -216,7 +216,7 @@ body {
 
 .text-cards {
   font-family: ClashDisplay-Regular;
-  font-size: 1.5rem;
+  font-size: 24px;
   color: #000;
   font-weight: 500;
 }
@@ -227,7 +227,7 @@ body {
 
 .card-text {
   font-family: ClashDisplay-Regular;
-  font-size: 1.125rem;
+  font-size: 18px;
   color: #000;
 }
 
@@ -241,5 +241,5 @@ body {
 
 #footer-text {
   font-family: ClashDisplay-Regular;
-  font-size: 1.5rem;
+  font-size: 24px;
 }
