@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(243,138,22,255)!important;
+}
+
+.main-box {
+  position: absolute;
+  width: 50vw;
+  height: auto;
+  background-color: white;
+  border-radius: 8px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+#task-list{
+    list-style: none;
+}
+
+.buttons:active{
+    color: rgba(243,138,22,255);
+}
+
+.buttons:focus{
+    color: rgba(243,138,22,255);
+}
+
+#btn-clear{
+    color: white;
+    background-color: rgba(243,138,22,255);
+    font-weight: 500;
+}
+
+
