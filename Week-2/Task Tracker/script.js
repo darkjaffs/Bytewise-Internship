@@ -1,4 +1,4 @@
-//Add Task On Enter
+// Add Task On Enter
 const taskInput = document.querySelector("#text-field");
 const taskList = document.querySelector("#task-list");
 
@@ -15,7 +15,7 @@ taskInput.addEventListener("keydown", (e) => {
       spanText.textContent = textContent;
       spanText.className = "align-self-center";
       const button = document.createElement("button");
-      button.className = "btn ms-auto";
+      button.className = "btn ms-auto rm-btn";
       const icon = document.createElement("i");
       icon.className = "bi bi-trash3";
       button.appendChild(icon);
@@ -26,12 +26,16 @@ taskInput.addEventListener("keydown", (e) => {
       taskInput.value = "";
     }
   }
+
+  const rmBtn = document.querySelectorAll(".rm-btn");
+  rmBtn.forEach((element) => {
+    element.addEventListener("click", (e) => {
+      element.parentElement.remove();
+    });
+  });
 });
 
-//TODO Remove Element on Trash Press
-
-//TODO Clear All
-
+// Clear All
 
 window.addEventListener("DOMContentLoaded", (event) => {
   const clearBtn = document.querySelector("#btn-clear");
@@ -45,7 +49,17 @@ window.addEventListener("DOMContentLoaded", (event) => {
     }
   });
 });
-    
+
+// Remove Element on Trash Press
+window.addEventListener("DOMContentLoaded", (event) => {
+  const rmBtn = document.querySelectorAll(".rm-btn");
+  rmBtn.forEach((element) => {
+    element.addEventListener("click", (e) => {
+      element.parentElement.remove();
+    });
+  });
+});
+
 //TODO Completed Task List
 
 //TODO Pending Task List
