@@ -4,7 +4,7 @@ const word = document.querySelector("#words");
 const sentences = document.querySelector("#sentences");
 const para = document.querySelector("#para");
 const space = document.querySelector("#space");
-const letters =document.querySelector("#letters");
+const letters = document.querySelector("#letters");
 const digit = document.querySelector("#digit");
 const spChar = document.querySelector("#spChar");
 
