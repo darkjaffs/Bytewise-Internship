@@ -69,9 +69,9 @@ window.addEventListener("DOMContentLoaded", (event) => {
 // Completed Task List
 
 let checkedList = [];
-const pBtn = document.querySelector("#btn-completed");
+const cBtn = document.querySelector("#btn-completed");
 
-pBtn.addEventListener("click", (e) => {
+cBtn.addEventListener("click", (e) => {
   currentList.forEach((element) => {
     input = element.firstElementChild;
     if (input.checked) {
@@ -79,13 +79,30 @@ pBtn.addEventListener("click", (e) => {
     }
   });
 
-  if (checkedList.length > 0) {
-    ul.innerHTML = "";
-    checkedList.forEach((element) => {
-      ul.appendChild(element);
-    });
-  }
+  ul.innerHTML = "";
+  checkedList.forEach((element) => {
+    ul.appendChild(element);
+  });
+
   checkedList = [];
 });
 
-//TODO Pending Task List
+// Pending Task List
+let uncheckedList = [];
+const pBtn = document.querySelector("#btn-pending");
+
+pBtn.addEventListener("click", (e) => {
+  currentList.forEach((element) => {
+    input = element.firstElementChild;
+    if (input.checked === false) {
+      uncheckedList.push(element);
+    }
+  });
+
+  ul.innerHTML = "";
+  uncheckedList.forEach((element) => {
+    ul.appendChild(element);
+  });
+
+  uncheckedList = [];
+});
