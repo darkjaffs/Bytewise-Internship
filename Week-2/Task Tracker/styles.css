@@ -1,6 +1,4 @@
-* {
-  box-sizing: border-box;
-}
+
 
 body {
   background-color: rgba(243,138,22,255)!important;
@@ -8,7 +6,6 @@ body {
 
 .main-box {
   position: absolute;
-  width: 50vw;
   height: auto;
   background-color: white;
   border-radius: 8px;
