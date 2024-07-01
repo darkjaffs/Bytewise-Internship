@@ -40,7 +40,6 @@ taskInput.addEventListener("keydown", (e) => {
 });
 
 // Clear All
-
 window.addEventListener("DOMContentLoaded", (event) => {
   const clearBtn = document.querySelector("#btn-clear");
   clearBtn.addEventListener("click", (e) => {
@@ -67,7 +66,6 @@ window.addEventListener("DOMContentLoaded", (event) => {
 });
 
 // Completed Task List
-
 let checkedList = [];
 const cBtn = document.querySelector("#btn-completed");
 
@@ -105,4 +103,14 @@ pBtn.addEventListener("click", (e) => {
   });
 
   uncheckedList = [];
+});
+
+//All Task List
+
+const aBtn = document.querySelector("#btn-all");
+aBtn.addEventListener('click', (e)=>{
+    ul.innerHTML = "";
+    currentList.forEach((element) => {
+      ul.appendChild(element);
+    });
 });
