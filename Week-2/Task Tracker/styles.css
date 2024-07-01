@@ -28,6 +28,10 @@ body {
     color: rgba(243,138,22,255);
 }
 
+.button:hover{
+  color: rgba(243,138,22,255);
+}
+
 #btn-clear{
     color: white;
     background-color: rgba(243,138,22,255);
