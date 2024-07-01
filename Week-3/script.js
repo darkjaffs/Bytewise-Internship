@@ -1,11 +1,12 @@
 const textArea = document.querySelector("#text-area");
 const char = document.querySelector("#char");
-const words = document.querySelector("#words");
+const word = document.querySelector("#words");
 const sentences = document.querySelector("#sentences");
-const para = document.querySelector("#para")
-
-
-
+const para = document.querySelector("#para");
+const space = document.querySelector("#space");
+const letters =document.querySelector("#letters");
+const digit = document.querySelector("#digit");
+const spChar = document.querySelector("#spChar");
 
 let charCount = 0,
     wordCount = 0,
@@ -47,7 +48,7 @@ textArea.addEventListener("keydown", (e) => {
             } else if (chartext === 46 || chartext === 33) {
                 sentenceCount++;
             } else if (
-                (chartext >= 34 && chartext <= 47 && chartext != 46) ||
+                (chartext >= 34 && chartext <= 47) ||
                 (chartext >= 58 && chartext <= 64) ||
                 (chartext >= 91 && chartext <= 96) ||
                 (chartext >= 123 && chartext <= 126)
@@ -57,7 +58,16 @@ textArea.addEventListener("keydown", (e) => {
                 digiCount++;
             }
         }
-        charCount = digiCount + specialCount + letterCount;
+        charCount = digiCount + specialCount + letterCount + sentenceCount + spaceCount;
+
+        char.textContent = charCount;
+        word.textContent = wordCount;
+        sentences.textContent = sentenceCount;
+        para.textContent = paraCount;
+        space.textContent = spaceCount;
+        letters.textContent = letterCount;
+        digit.textContent = digiCount;
+        spChar.textContent = specialCount;
 
 
     }
