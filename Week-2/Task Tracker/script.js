@@ -1,6 +1,8 @@
 // Add Task On Enter
 const taskInput = document.querySelector("#text-field");
 const taskList = document.querySelector("#task-list");
+let currentList = document.querySelectorAll("li");
+const ul = document.querySelector("#task-list");
 
 taskInput.addEventListener("keydown", (e) => {
   if (e.key === "Enter") {
@@ -24,6 +26,7 @@ taskInput.addEventListener("keydown", (e) => {
       li.appendChild(button);
       taskList.appendChild(li);
       taskInput.value = "";
+      currentList = document.querySelectorAll("li");
     }
   }
 
@@ -31,6 +34,7 @@ taskInput.addEventListener("keydown", (e) => {
   rmBtn.forEach((element) => {
     element.addEventListener("click", (e) => {
       element.parentElement.remove();
+      currentList = document.querySelectorAll("li");
     });
   });
 });
@@ -47,6 +51,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
         element.remove();
       });
     }
+    currentList = document.querySelectorAll("li");
   });
 });
 
@@ -56,10 +61,31 @@ window.addEventListener("DOMContentLoaded", (event) => {
   rmBtn.forEach((element) => {
     element.addEventListener("click", (e) => {
       element.parentElement.remove();
+      currentList = document.querySelectorAll("li");
     });
   });
 });
 
-//TODO Completed Task List
+// Completed Task List
+
+let checkedList = [];
+const pBtn = document.querySelector("#btn-completed");
+
+pBtn.addEventListener("click", (e) => {
+  currentList.forEach((element) => {
+    input = element.firstElementChild;
+    if (input.checked) {
+      checkedList.push(element);
+    }
+  });
+
+  if (checkedList.length > 0) {
+    ul.innerHTML = "";
+    checkedList.forEach((element) => {
+      ul.appendChild(element);
+    });
+  }
+  checkedList = [];
+});
 
 //TODO Pending Task List

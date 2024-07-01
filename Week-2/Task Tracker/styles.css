@@ -20,17 +20,10 @@ body {
     list-style: none;
 }
 
-.buttons:active{
-    color: rgba(243,138,22,255);
-}
-
 .buttons:focus{
     color: rgba(243,138,22,255);
 }
 
-.button:hover{
-  color: rgba(243,138,22,255);
-}
 
 #btn-clear{
     color: white;
