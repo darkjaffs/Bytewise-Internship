@@ -30,6 +30,7 @@ taskInput.addEventListener("keydown", (e) => {
     }
   }
 
+  //Add Event Listener for Dynamically Added Buttons
   const rmBtn = document.querySelectorAll(".rm-btn");
   rmBtn.forEach((element) => {
     element.addEventListener("click", (e) => {
@@ -108,9 +109,9 @@ pBtn.addEventListener("click", (e) => {
 //All Task List
 
 const aBtn = document.querySelector("#btn-all");
-aBtn.addEventListener('click', (e)=>{
-    ul.innerHTML = "";
-    currentList.forEach((element) => {
-      ul.appendChild(element);
-    });
+aBtn.addEventListener("click", (e) => {
+  ul.innerHTML = "";
+  currentList.forEach((element) => {
+    ul.appendChild(element);
+  });
 });

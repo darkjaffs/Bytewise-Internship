@@ -1,7 +1,5 @@
-
-
 body {
-  background-color: rgba(243,138,22,255)!important;
+  background-color: rgba(243, 138, 22, 255) !important;
 }
 
 .main-box {
@@ -13,19 +11,16 @@ body {
   transform: translate(0, -50%);
 }
 
-#task-list{
-    list-style: none;
+#task-list {
+  list-style: none;
 }
 
-.buttons:focus{
-    color: rgba(243,138,22,255);
+.buttons:focus {
+  color: rgba(243, 138, 22, 255);
 }
 
-
-#btn-clear{
-    color: white;
-    background-color: rgba(243,138,22,255);
-    font-weight: 500;
+#btn-clear {
+  color: white;
+  background-color: rgba(243, 138, 22, 255);
+  font-weight: 500;
 }
-
-
