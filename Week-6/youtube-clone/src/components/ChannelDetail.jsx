@@ -28,7 +28,7 @@ const ChannelDetail = () => {
         />
         <ChannelCard
           channelDetail={channelDetail}
-          marginTop='-110px'
+          marginTop='-100px'
         />
       </Box>
       <Box

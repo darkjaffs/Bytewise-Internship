@@ -9,7 +9,7 @@ const SearchFeed = () => {
   const { searchTerm } = useParams();
 
   useEffect(() => {
-    fetchFromApi(`search?part=snippet&q= ${searchTerm}`).then((data) => {
+    fetchFromApi(`search?part=snippet&q=${searchTerm}`).then((data) => {
       setVideos(data.items);
     });
   }, [searchTerm]);
@@ -27,8 +27,7 @@ const SearchFeed = () => {
       >
         Search Result for: <span style={{ color: "#F31503" }}>{searchTerm}</span> videos
       </Typography>
-
-      <Videos videos={videos} />
+      <Videos videos={videos}/>
     </Box>
   );
 };
